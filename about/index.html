@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% include site_tags.html %}
+
+<div class="home">
+
+  <h1 class="page-heading">About</h1>
+
+  <article class="post-content">
+This is an experiment in setting up an Open Science lab book.
+  </article>
+
+<ul class="post-list">
+  {% for post in site.posts %}{% if post.category == "about" or post.tags contains "about" %}
+    <li>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.updated %} • <b>updated: </b>{{ post.updated | date_to_long_string }}{% endif %}{% if post.author %} • {{ post.author }}{% endif %}{% if post.place %} • {{ post.place }}{% endif %} </span>
+
+
+      {% if post.tags %}  <span class="post-meta"> • </span>
+       {% for tag in post.tags %}
+         <a href="{{ site.baseurl }}/tags.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag" class = "tag" >
+           {{ tag }} </a>  &nbsp
+       {% endfor %}
+      {% endif %}
+    </li>
+  {% endif %}{% endfor %}
+</ul>
+
+
+</div>

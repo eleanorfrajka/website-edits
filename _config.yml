@@ -1,31 +1,33 @@
-exclude: [ _posts/source ]
-highlighter: pygments
-safe: false
-paginate: 6
+# Site settings
+title: EleanorFrajka LabLog # type your own lablog title here
 
-scholar:
-  style: apa
-  sort_by: year
-  order: descending
-  source: ./biblio
-  bibliography: totall.bib
-  
-tag_page_layout: tag_page
-tag_page_dir: tag
+description: > # this means to ignore newlines until "baseurl:"
+  This is an experiment in an open science-type notebook.  
+  Find my static website at http://eleanorfrajka.com.
+baseurl: "/lablog" # the subpath of your site, e.g. /blog/
+url: "http://eleanorfrajka.github.io" # the base hostname & protocol for your site
+include: [ _assets , _projects ]
+destination: "/Users/eddifying/GitProjects/eleanorfrajka.github.io/lablog/"
 
-markdown: Pandoc
-pandoc:
-  extensions: 
-    - smart
-    - mathjax
-    - bibliography: /Users/eddifying/Dropbox/library-bibtex/totall.bib
-    
+name : Eleanor Frajka-Williams
+email : e.frajkawilliams@gmail.com
+github_username: eleanorfrajka
+twitter_username: eleanorfrajka
+website : http://eleanorfrajka.com
 
-author:
-  name: Eleanor Frajka-Williams
-  givenName: Eleanor
-  familyName: Frajka-Williams
-  github: eleanorfrajka
-url: http://eleanorfrajka.com
-title: Lab Notebook for Eleanor Frajka-Williams
-name: Lab Notebook for Eleanor Frajka-Williams
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+noindex: true # if true, google will ignore your pages!
+
+defaults:   # overwrite with in YAML frontmatter, e.g. 'place: New York'
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      place:  # default Geolocation of posts.
+      author: # default author for posts (for multi-authoring)

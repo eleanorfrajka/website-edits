@@ -1,0 +1,68 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+$base-font-size:   15px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.4;
+
+$code-font-family: 'Ubuntu Mono', Courier, mono;
+$code-font-size: 14px;
+
+$spacing-unit:     20px;
+
+$text-color:       #111;
+$background-color: #fffff0;
+$brand-color-light:#fdae61;
+$brand-color:      #d73027;
+$brand-color-dark: #a50026;
+$grey-color:       #313695;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  #4575b4;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+$tag-default-bg:   $grey-color-dark;
+$tag-default-fg:   white;
+
+// Using media queries with like this:
+// @include media-query($palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// color tags
+
+// darken tag background
+@mixin tag-variant($color) {
+  background-color: $color;
+
+  &[href] {
+    &:hover,
+    &:focus {
+      background-color: darken($color, 10%);
+    }
+  }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
