@@ -8,7 +8,7 @@ scholar:
   sort_by: year
   order: descending
   source: ./biblio
-  bibliography: labnotebook.bib
+  bibliography: totall.bib
   
 tag_page_layout: tag_page
 tag_page_dir: tag
@@ -22,10 +22,10 @@ pandoc:
     
 
 author:
-  name: Mark E. Madsen
-  givenName: Mark
-  familyName: Madsen
-  github: mmadsen
-url: http://notebook.madsenlab.org
-title: Lab Notebook for Mark E. Madsen
-name: Lab Notebook for Mark E. Madsen
+  name: Eleanor Frajka-Williams
+  givenName: Eleanor
+  familyName: Frajka-Williams
+  github: eleanorfrajka
+url: http://eleanorfrajka.com
+title: Lab Notebook for Eleanor Frajka-Williams
+name: Lab Notebook for Eleanor Frajka-Williams
