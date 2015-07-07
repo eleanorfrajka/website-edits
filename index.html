@@ -1,0 +1,63 @@
+---
+layout: default
+---
+<div class="span9">
+			<!--<div class="hero-unit">
+				<img src="/images/madsenlabnotebook-350px.png" class="img-responsive" alt="MadsenLab Notebook"/>
+				<p>I study the evolution of human culture, using the framework of Darwinian evolutionary theory.    
+					My research projects focus upon the connection between individual-level processes of social learning and strategic interaction, and their macroscopic and macroevolutionary results.</p>
+				<p>Welcome to my lab notebook.</p>
+			</div>
+			-->
+	<div class="row-fluid">
+		<div class="span9">
+
+		<h3>Recent Essays</h3>
+
+			<table class="table table-condensed">
+
+				{% for post in site.categories["essays"] limit:5 %}
+
+					<tr>
+					<td>{{ post.date | date_to_string }}</td>
+					<td><a href="{{ post.url }}">{{post.title}}</a></td>
+					</tr>
+
+
+				{% endfor %}
+				</table>
+
+
+			<h3>Recent Lab Notes</h3>
+
+				<table class="table table-condensed">
+				<tr>
+					<th>Project</th>
+					<th>Date</th>
+					<th>Title</th>
+				</tr>
+				{% assign nonessays = site.posts | posts_without_essays %}
+				{% for post in nonessays limit:15 | sort:'date' %}
+
+					{% assign category = post.categories | get_project_category %}
+					<tr>
+					<td><a href="{{post.categories | get_raw_project_category | get_project_url }}">{{category}}</a></td>
+					<td>{{ post.date | date_to_string }}</td>
+					<td><a href="{{ post.url }}">{{post.title}}</a></td>
+					</tr>
+
+
+				{% endfor %}
+				</table>
+
+			
+
+
+			<a href="http://github.com/mmadsen"><span class="mega-octicon octicon-mark-github"></span>&nbsp;&nbsp;Github Activity</a>
+    		{% github_feed mmadsen, 8 %}
+
+
+		</div>
+	</div>
+	
+</div>

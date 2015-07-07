@@ -1,0 +1,39 @@
+---
+layout: default
+title:  Notes by Simulation Model/Codebase
+tags: [experiments]
+---
+<div class="span9">
+
+
+{% assign modellist = site.categories | categories_with_prefix: "model:" %}
+
+
+{% for model in modellist %}
+<h3>{{ model | strip_prefix_and_titleize_category }}</h3>
+<p>
+<a href="{{model | get_github_for_model }}">GitHub Repository</a>
+</p>
+
+<table class="table table-condensed">
+
+	{% for post in site.categories[model] %}
+
+		<tr>
+		<td>{{ post.date | date_to_string }}</td>
+		<td><a href="{{ post.url }}">{{post.title}}</a></td>
+		</tr>
+
+
+	{% endfor %}
+</table>
+
+{% endfor %}
+
+
+
+
+
+
+
+
