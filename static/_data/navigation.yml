@@ -1,0 +1,47 @@
+#- title: Home
+#  url: "/"
+#  side: left
+
+- title: Research
+  url: "/projects/"
+  side: left
+#  dropdown:
+#  - title: "DynOPO"
+#    url: "/projects/dynopo/"
+#  - title: "RAPID"
+#    url: "/projects/rapid/"
+#  - title: "Labrador Sea"
+#    url: "/projects/labsea"
+
+- title: "Teaching"
+  url: "/teaching/"
+  side: left
+
+- title: "People"
+  url: "/people/"
+  side: left
+
+- title: "Publications"
+  url: "/outputs/"
+  side: left
+
+- title: Resources
+  url: "/resources/"
+  side: right
+
+- title: 'LabLog'
+  url: "/blog/"
+  side: right
+#  dropdown:
+#  - title: Blog
+#    url: "/blog/"
+#  - title: "Blog Archive"
+#    url: "/blog/archive/"
+
+- title: "Search"
+  url: "/search/"
+  side: right
+
+#- title: "Contact"
+#  url: "/contact/"
+#  side: right

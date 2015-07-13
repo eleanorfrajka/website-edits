@@ -1,0 +1,16 @@
+- menu_name: "Just for fun"
+
+- name: "Twitter"
+  url: "http://twitter.com/eleanorfrajka"
+  class: "services-contact"
+  title: "Twitter"
+
+- name: "Photo Galleries"
+  url: "/galleries/"
+  class: "rss-link"
+  title: "Cruise photos"
+
+- name: "sitemap.xml for Google webstuff"
+  url: "/sitemap.xml"
+  class: "sitemap-link"
+  title: "Sitemap for Google Webmastertools"

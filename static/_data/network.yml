@@ -1,0 +1,18 @@
+- menu_name: "Contact"
+
+- name: "Address:  National Oceanography Centre"
+
+- name: "Office: 564/10"
+  url: "http://foundation.zurb.com/"
+  class: "services-newsletter"
+  title: "Built on Foundation"
+
+- name: "Phone: +44 238059 6666"
+  url: "http://unsplash.com/"
+  class: "rss-link"
+  title: "Images by Unsplash"
+
+- name: "Using Backstretch by Scott Robbin"
+  url: "http://srobbin.com/jquery-plugins/backstretch/"
+  class: "sitemap-link"
+  title: "Using Backstretch by Scott Robbin"
