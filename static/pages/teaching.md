@@ -31,4 +31,4 @@ I supervise up to 3 or 4 student projects each academic year, among MSc, MOcean 
 
 To get an idea of projects I have supervised in the past, see [People](/people/).
 
-_In the 2015/16 academic year, I will be on sabbatical in the spring term. To ensure continuity of supervision for students, I will only supervise students as a co-supervisor._
+_In the 2015/16 academic year, I will be on sabbatical in the spring term. To ensure continuity of supervision for students, I will supervise students as a co-supervisor._

@@ -25,7 +25,7 @@
 </div>-->
 
 <strong>{{ entry.title }}</strong>.<br/>
-({{ entry.year }}) {{ entry.author }}. <em>{{ entry.journal }}</em>, {{ entry.volume }}:{{ entry.pages }}. doi: {{ entry.doi }}. 
+({{ entry.year }}) {{ entry.author }}. <em>{{ entry.journal }}</em> {% if entry.volume %}{{ entry.volume }}:{% endif %} {% if entry.pages %}{{ entry.pages }}{% endif %}. {% if entry.doi %} doi: {{ entry.doi }}. {% elsif entry.url %} url: {{ entry.url }}.{% endif %}
 
 
 

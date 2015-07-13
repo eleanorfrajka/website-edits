@@ -24,7 +24,11 @@ div.pdfimg{
 
 <h3><center>{{ page.entry.title }}</center></h3>
 <h4>{{ page.entry.author }}</h4>
+{% if page.entry.doi %}
 <h4><a href="http://dx.doi.org/{{ page.entry.doi }}">doi: {{ page.entry.doi }}</a></h4>
+{% elsif page.entry.url %}
+<h4><a href="{{ page.entry.url }}">url: {{ page.entry.url }}</a></h4>
+{% endif %}
 <hr>
 
 <div class="pdfimg">
@@ -37,12 +41,15 @@ div.pdfimg{
 
 <div style="clear:both"></div>
 
+
 <hr>
-<pre>
+<pre>{{ page.entry.bibtex }}</pre>
+
+<!--<pre>
  {% highlight tex %}
  {{ page.entry.bibtex }}
  {% endhighlight %}
-</pre>
+</pre>-->
 
 
 </html>

@@ -1,18 +1,36 @@
-- menu_name: "Contact"
+- menu_name: "Around the web"
 
-- name: "Address:  National Oceanography Centre"
-
-- name: "Office: 564/10"
-  url: "http://foundation.zurb.com/"
+- name: "Google Scholar (frSqTNUAAAAJ)"
+  url: "https://scholar.google.com/citations?user=frSqTNUAAAAJ"
   class: "services-newsletter"
   title: "Built on Foundation"
 
-- name: "Phone: +44 238059 6666"
-  url: "http://unsplash.com/"
+- name: "LinkedIn"
+  url: "https://uk.linkedin.com/pub/eleanor-frajka-williams"
+  class: "services-newsletter"
+  title: "Built on Foundation"
+
+- name: "ResearchGate"
+  url: "https://www.researchgate.net/profile/Eleanor_Frajka-Williams"
   class: "rss-link"
   title: "Images by Unsplash"
 
-- name: "Using Backstretch by Scott Robbin"
-  url: "http://srobbin.com/jquery-plugins/backstretch/"
-  class: "sitemap-link"
-  title: "Using Backstretch by Scott Robbin"
+- name: "Figshare"
+  url: "http://figshare.com/authors/Eleanor_Frajka_Williams/437802"
+  class: "rss-link"
+  title: "Images by Unsplash"
+
+- name: "ORCID (0000-0001-8773-7838)"
+  url: "http://orcid.org/0000-0001-8773-7838"
+  class: "rss-link"
+  title: "Images by Unsplash"
+
+- name: "ResearcherID (H-2415-2011)"
+  url: "http://www.researcherid.com/rid/H-2415-2011"
+  class: "rss-link"
+  title: "Images by Unsplash"
+
+- name: "SCOPUS (35075986300)"
+  url: "http://www.scopus.com/authid/detail.url?authorId=35075986300"
+  class: "rss-link"
+  title: "SCOPUS"

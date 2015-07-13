@@ -1,0 +1,45 @@
+#- title: Home
+#  url: "/"
+#  side: left
+
+- title: Data
+  url: "/oceanographic-data/"
+  side: left
+  dropdown:
+  - title: "Satellite data"
+    url: "/satellite-data/"
+  - title: "In situ data"
+    url: "/in-situ-data/"
+  - title: "Other data"
+    url: "/other-data/"
+
+- title: "Analysis"
+  url: "/analysis-overview/"
+  side: left
+
+- title: "Communication"
+  url: "/communication-overview/"
+  side: left
+  dropdown:
+  - title: "Figure design"
+    url: "/figure-design/"
+  - title: "Latex research diary"
+    url: "/latex-research-diary/"
+
+
+- title: 'Blog'
+  url: "/blog/"
+  side: right
+#  dropdown:
+#  - title: Blog
+#    url: "/blog/"
+#  - title: "Blog Archive"
+#    url: "/blog/archive/"
+
+- title: "Search"
+  url: "/search/"
+  side: right
+
+#- title: "Contact"
+#  url: "/contact/"
+#  side: right

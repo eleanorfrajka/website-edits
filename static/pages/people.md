@@ -8,7 +8,7 @@ header: no
 ---
 <!--...and learn at the same time.-->
 
-<p align="right"><a href="/people/phd/">Looking for PhD opportunities?</a></p>
+<p align="right">[Looking for PhD opportunities?][1]</p>
 
 ## Current PhD students:
 
@@ -48,3 +48,6 @@ On Boundary currents around Greenland
 * Louis Clement (UoS MSc, 2010). Variability and structure of the North Atlantic Deep Water at 26.5 deg N, using RAPID transport measurements.
 * Chris Hughes (UoS MSc, 2010). Spatial Coherence of the Atlantic Deep Western Boundary Current, using ARGO float data.
 * Luke Sheldon (from Oxford Uni, NERC research experience placement, 2011). The temporal variability in temperature and salinity in the Deep Western Boundary Current at 26 deg N in the Atlantic, using RAPID TS observations.
+
+
+[1]: /people/phd-opportunities/

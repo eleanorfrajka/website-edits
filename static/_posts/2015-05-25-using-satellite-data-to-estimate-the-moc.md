@@ -34,10 +34,13 @@ The main results of the paper are that
 - There is a strong relationship between spatially-smoothed sea surface height anomalies and the transbasin transport
 - Using this relationship, we can estimate the interannual variability of the MOC since 1992. While the downturn identified in Smeed et al. (2014) in Ocean Science does not appear to be a continuation of a longer-term trend, according to the estimates here, there does appear to be a reduction in the overall strength of the AMOC from before 2004 to present.
 
-This paper is open access (free to the public) at GRL, so you can read the whole thing here: [http://dx.doi.org/10.1002/2015GL063220](http://dx.doi.org/10.1002/2015GL063220)
+This paper is open access (free to the public) at GRL, so you can read the whole thing here: [http://dx.doi.org/10.1002/2015GL063220][1]
 
-<div align="right">Looking for the slides or data? Check [Moc-from-Space](http://eleanorfrajka.com/moc-from-space/).</div>
+<div align="right">Looking for the slides or data? Check [Moc-from-Space][2].</div>
 
 
 <!--{: .t60 }
 {% include list-posts.html tag='post format' %}-->
+
+[1]: http://dx.doi.org/10.1002/2015GL063220
+[2]: /moc-from-space/
