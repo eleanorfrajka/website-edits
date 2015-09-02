@@ -1,0 +1,43 @@
+# Site settings
+title: MerMEED
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+destination: /Users/eddifying/GitProjects/mermeed-website/
+baseurl: "/mermeed" # the subpath of your site, e.g. /blog/
+url: "http://frajkalab.github.io/mermeed" # the base hostname & protocol for your site
+twitter_username: blank
+github_username:  frajkalab
+
+# Build settings
+markdown: kramdown
+
+permalink: /:year/:month-:day-:title.html
+
+
+# Some stuff for jekyll-scholar
+scholar:
+  style: apa
+  locale: en
+
+  key: value
+  sort_by: year
+  order: descending
+
+  source: bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    outputs
+  details_layout: bibtex.html
+  details_link:   details
+
+  query: "@*"
+
+  repository: ./pdf
+  

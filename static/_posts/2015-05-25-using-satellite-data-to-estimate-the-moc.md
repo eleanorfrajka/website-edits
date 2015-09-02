@@ -36,7 +36,7 @@ The main results of the paper are that
 
 This paper is open access (free to the public) at GRL, so you can read the whole thing here: [http://dx.doi.org/10.1002/2015GL063220][1]
 
-<div align="right">Looking for the slides or data? Check [Moc-from-Space][2].</div>
+<div align="right">Looking for the slides or data? Check <a href="/moc-from-space/">Moc-from-Space</a>.</div>
 
 
 <!--{: .t60 }

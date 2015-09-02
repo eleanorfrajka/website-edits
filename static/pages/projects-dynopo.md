@@ -3,7 +3,7 @@ layout: page
 title: "DynOPO"
 subheadline: "Dynamics of the Orkney Passage Outflow"
 show_meta: false
-teaser: ""
+teaser: "Alberto Naveira Garabato (PI), Eleanor Frajka-Williams, Mike Meredith (BAS), Povl Abrahamsen (BAS) with partners Sonya Legg (GFDL) and Kurt Polzin (WHOI)."
 permalink: "/projects/dynopo/"
 header: no
 ---

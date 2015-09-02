@@ -19,6 +19,10 @@ The three main projects I have worked on are
 * [RAPID](/projects/rapid/) (Meridional overturning circulation at 26N)
 * [Labrador Sea](/projects/labsea/) (Seagliders in the Labrador Sea for my PhD thesis.)
 
+Now spinning up is a new NERC-funded project on Mesoscale eddies in the Atlantic:
+
+* [MerMEED](/projects/mermeed/) (Mechanisms responsible for Mesoscale Eddy Energy Dissipation) - stay tuned for more.
+
 <!--## Methods: Seagliders
 
 A lot of my work has involved using [Seagliders](/projects/seagliders/).

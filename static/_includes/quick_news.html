@@ -1,0 +1,26 @@
+{% comment %}
+*  This loops through the paginated posts 
+*
+*  Total posts: {{ paginator.total_posts }}
+*  Total paginate-pages: {{ paginator.total_pages }}
+*  
+{% endcomment %}
+
+<h2>News!</h2>
+{% for post in site.posts %}
+  {% if post.categories contains 'quick' %}
+  <div class="row">
+    <div class="small-12 small-centered columns">
+    <p>
+      <span class="subheader">{{ post.date | date: "%-d %B %Y" }} - </span>
+        {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
+      </p>
+    </div><!-- /.small-12.columns -->
+  </div><!-- /.row -->
+  {% endif %}
+{% endfor %}
+
+<hr/>
+
+<h2>New posts</h2><br/>
+
