@@ -14,9 +14,9 @@ header: no
 show_meta: true
 ---
 
-<div align="right">Downloads: [<a href="http://dx.doi.org/10.1002/2015GL063220">paper</a>] [[data][data-form]] [<a href="http://www.slideshare.net/eleanorfrajka/2015-06talkmtgiuggefwmocfromspacewide">slides – iugg</a>]</div><br/>
+<div align="right">Downloads: [<a href="http://dx.doi.org/10.1002/2015GL063220">paper</a>] [<a href="/data-form-moc-from-space/">data form</a>] [<a href="http://www.slideshare.net/eleanorfrajka/2015-06talkmtgiuggefwmocfromspacewide">slides – iugg</a>]</div><br/>
 
-*There are lots of exciting things that a 20-year time series of the MOC interannual variability could be used for! I’d be interested to hear your thoughts; find me on Twitter <a href="http://twitter.com/eleanorfrajka">@EleanorFrajka</a> or drop me an e-mail <a href="mailto:eleanorfrajka@gmail.com">eleanorfrajka@gmail.com</a>.
+*There are lots of exciting things that a 20-year time series of the MOC interannual variability could be used for! I’d be interested to hear your thoughts; find me on Twitter <a href="http://twitter.com/eleanorfrajka">@EleanorFrajka</a> or drop me an e-mail <a href="mailto:e.frajka-williams@soton.ac.uk">e.frajka-williams@soton.ac.uk</a>.
 
 Frajka-Williams, E. (2015), Estimating the Atlantic overturning at 26°N using satellite altimetry and cable measurements. Geophys. Res. Lett., 42, 3458–3464. doi: 10.1002/2015GL063220.
 
