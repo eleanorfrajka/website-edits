@@ -1,16 +1,34 @@
 ---
 layout: page
-title: "People"
+title: "Group"
 show_meta: false
-teaser: "I presently advise or co-advise 4 PhD students and several undergraduate- and Masters-level students. Projects and topics vary including…"
+teaser: "I presently advice or co-advise 4 PhD students and usually several undergraduate- and Masters-level students, and will shortly be recruiting a PDRA.  Projects and topics vary."
 permalink: "/people/"
 header: no
 ---
 <!--...and learn at the same time.-->
 
-<p align="right"><a href="/people/phd-opportunities/">Looking for PhD opportunities?</a></p>
 
-## Current PhD students:
+
+<p align="right"><a href="/people/phd-opportunities/">Looking for PhD or postdoc opportunities?</a></p>
+
+<br/>
+
+<div class="row" style="margin-bottom:3px">
+  <div class="small-4 columns"><img src="/images/profile_pic_square.jpg" width="120" align="right"></div>
+  <div class="small-8 columns"><b>Eleanor Frajka-Williams</b><br/>Lecturer in Ocean and Earth Sciences<br/>
+  <a href="https://dl.dropboxusercontent.com/u/11504703/EFW-CV.pdf">Curriculum Vitae</a><br/>
+Ocean and Earth Sciences, University of Southampton<br/>
+National Oceanography Centre 564/10
+</div>
+</div>
+
+<br/><br/>
+
+
+### Current PhD students:
+
+
 
 <div class="row" style="margin-bottom:3px">
   <div class="small-4 columns"><img src="/images/people/2015-morarji-portrait-square.jpg" width="120" align="right"></div>
@@ -49,7 +67,8 @@ On Boundary currents around Greenland
   <a href="mailto:lclement@ldeo.columbia.edu">lclement@ldeo.columbia.edu</a>
 <br/>Now a Postdoc at Lamont Doherty (LDEO, Columbia University).</div></div>
 
-### Previous students (selected)
+### Previous students (selected*)
+
 
 * Joe Ribeiro (UoS MOcean, 2015). Using TS anomalies along isopycnals to estimate lateral mixing in the Labrador Sea
 * [Joe Lawson](https://uk.linkedin.com/in/lawsonjoseph) (UoS MOcean, 2015). Using TS data from Argo floats to create an SST-SSS lookup table for the Labrador Sea
@@ -70,6 +89,8 @@ On Boundary currents around Greenland
 * Louis Clement (UoS MSc, 2010). Variability and structure of the North Atlantic Deep Water at 26.5 deg N, using RAPID transport measurements.
 * Chris Hughes (UoS MSc, 2010). Spatial Coherence of the Atlantic Deep Western Boundary Current, using ARGO float data.
 * Luke Sheldon (from Oxford Uni, NERC research experience placement, 2011). The temporal variability in temperature and salinity in the Deep Western Boundary Current at 26 deg N in the Atlantic, using RAPID TS observations.
+
+_*Student dissertations for the past few years can be found in the National Oceanography Library at NOCS in Southampton._
 
 
 [1]: /people/phd-opportunities/

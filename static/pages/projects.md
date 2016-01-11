@@ -13,15 +13,16 @@ header: no
 
 ## Projects
 
-The three main projects I have worked on are
+Now spinning up is a new NERC-funded project on Mesoscale eddies in the Atlantic:
+
+* [MerMEED](/projects/mermeed/) (Mechanisms responsible for Mesoscale Eddy Energy Dissipation) - stay tuned for more!
+
+The three main projects I have worked/am working on are
 
 * [DynOPO](/projects/dynopo/) (Dynamics of the Orkney Passage Outflow)
 * [RAPID](/projects/rapid/) (Meridional overturning circulation at 26N)
 * [Labrador Sea](/projects/labsea/) (Seagliders in the Labrador Sea for my PhD thesis.)
 
-Now spinning up is a new NERC-funded project on Mesoscale eddies in the Atlantic:
-
-* [MerMEED](/projects/mermeed/) (Mechanisms responsible for Mesoscale Eddy Energy Dissipation) - stay tuned for more.
 
 <!--## Methods: Seagliders
 

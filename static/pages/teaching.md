@@ -11,10 +11,14 @@ header: no
 
 
 ## 2015/16 Academic Year
+
+Autumn teaching schedule: <a href="http://www.frajka-williams.com/2015/autumn-teaching-schedule/">now available</a>.
+
 - **Autumn 2015: SOES3010/6005 (Large Scale Ocean Processes)** 
 This is a dynamics course for 3rd year undergraduates and our 1-year Masters students. It is a relatively math-heavy introduction to large-scale ocean processes, including basic balances (hydrostatic and geostrophic), simple wind-forcing (Ekman transport), and the 1- and 2-layer shallow water equations. We also consider wave solutions (Poincare, Kelvin and Rossby), Ekman pumping and Sverdrup transport.
 - **Autumn 2015: SOES2025 (Methods in Oceanography)**
 In this course, I contribute 5 weeks of material including lectures and computer practicals. The lectures focus on oceanography from space, including the EM spectrum, active and passive techniques for measuring the oceans, and the types and levels of data available. The practicals consist of 10 hours of Matlab work on self-paced labs. These are designed for students who have never programmed before, and start with how to carry out basic arithmetic and load data, and continue on through handling 3-dimensional satellite data and using for-loops and boolean statements.
+
 
 ## Past courses taught
 

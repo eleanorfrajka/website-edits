@@ -12,7 +12,7 @@ header: no
 
 
 <!--![Cruise photos, DynOPO JR310](/images/jr310/IMG_6096_thumb.jpg){: .callout}--> 
-MerMEED (NERC NE/N001745/1) has been funded. 
+MerMEED (<a href="http://gtr.rcuk.ac.uk/projects?ref=NE/N001745/1">NERC NE/N001745/1</a>) has been funded. 
 
 *Stay tuned for news!*
 
