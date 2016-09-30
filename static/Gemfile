@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
 group :jekyll_plugins do
-   gem "jekyll-scholar"
+	gem 'jekyll-scholar', '~> 4.3.6'
 end
 
